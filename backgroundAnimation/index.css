@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #e21732;
+  min-height: 100vh;
+}
+.content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.element {
+  position: absolute;
+  height: 200px;
+  width: 100px;
+  background: #e21732;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  z-index: 1000;
+  color: lightblue;
+  font-size: 10vw;
+  text-align: center;
+  text-transform: uppercase;
+}
